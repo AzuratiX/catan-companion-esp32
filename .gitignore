@@ -1,0 +1,21 @@
+# MicroPython / Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+
+# Local venv (not for ESP32)
+catanenv/
+venv/
+.env
+
+# Editor / OS
+.vscode/
+.idea/
+*.swp
+Thumbs.db
+Desktop.ini
+
+# mpremote / build artifacts
+*.uf2
+*.bin

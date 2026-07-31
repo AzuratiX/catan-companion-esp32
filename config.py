@@ -1,0 +1,44 @@
+# CATAN ESP32 Companion Box - Pin map and game constants
+
+# I2C LCD (PCF8574 backpack)
+I2C_SDA = 21
+I2C_SCL = 22
+I2C_FREQ = 50000
+LCD_I2C_ADDR = 0x27  # alternate: 0x3F
+
+# Push buttons (active LOW, internal pull-ups)
+BTN_MAIN = 13
+BTN_SELECT = 14
+BTN_BACK = 12
+BTN_HOME = 32  # restart to setup; alt: 32, 33, 16, 17
+
+# Status LEDs (active HIGH)
+LED_GREEN = 25
+LED_YELLOW = 26
+LED_RED = 27
+
+# Buzzer (PWM)
+BUZZER_PIN = 18
+
+# Timing
+DEBOUNCE_MS = 50
+TIMER_MIN_S = 15
+TIMER_MAX_S = 180
+TIMER_STEP_S = 15
+TIMER_DEFAULT_S = 60
+PLAYERS_MIN = 3
+PLAYERS_MAX = 6
+PLAYERS_DEFAULT = 3
+
+LOW_TIME_WARN_S = 10
+RESOURCE_GATHER_S = 8
+DICE_RESULT_S = 3
+DICE_ROLL_MS = 1800
+DICE_FLASH_MS = 80
+
+# Buzzer frequencies (Hz)
+TONE_ROLL = 440
+TONE_SUCCESS = 880
+TONE_WARN = 660
+TONE_ROBBER = 220
+TONE_TIMEUP = 330
