@@ -99,7 +99,7 @@ Screenshots and build photos for the CATAN ESP32 Companion Box.
 
 #### Time finished
 
-*Timer hit <=1 — red LED, time-up alarm*
+*Timer hit ≤1 s — red LED, time-up alarm*
 
 ![Timer finished](photos/11-timerfinish.jpg)
 
