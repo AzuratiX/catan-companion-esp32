@@ -27,7 +27,8 @@ Manages rounds, player turns, dice rolls (with animation), robber (7) events, re
 | LEDs | Green / Yellow / Red + 220–330 Ω resistors |
 | Buzzer | Active or passive on PWM GPIO 18 |
 
-**State machine / workflow:** [docs/WORKFLOW.md](docs/WORKFLOW.md)
+**State machine / workflow:** [docs/WORKFLOW.md](docs/WORKFLOW.md)  
+**Build & screen photos:** [docs/PHOTOS.md](docs/PHOTOS.md)
 
 ### Pin map (default)
 
